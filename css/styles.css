@@ -3,7 +3,7 @@
     --dur: .2s;
     --color-dark:black;
     --color-light: #fff;
-    --color-brand: #57bd84;
+    --color-brand: #E57C23;
     --font-fam: 'Righteous', cursive;
     --height: calc(2.2vw + 1.9vh);
     --btn-width: calc(2.2vw + 2.8vh);
@@ -23,9 +23,6 @@ h1{
     font-weight: 1000;
     font-family: 'Bruno Ace SC', cursive;
     text-decoration: solid;
-}
-h2{
-
 }
 h3{
     font-size: calc(0.8vw + 0.8vh);
@@ -170,9 +167,6 @@ form {
     justify-content: center;
     flex-wrap: wrap;
     align-items: center;
-}
-.cards{
-    
 }
 img{
     border-radius: 5px;
