@@ -12,6 +12,7 @@
 body{
     padding-left: 15px;
     background-color: whitesmoke;
+    margin-top: 0;
 }
 html{
     scroll-behavior: smooth;
@@ -39,7 +40,7 @@ a{
     text-decoration: none;
 }
 table{
-    border-spacing: 5px;
+    border-spacing: 1px;
 }
 /* .logo{
     position: absolute;
