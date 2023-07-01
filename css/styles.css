@@ -20,7 +20,6 @@ html{
 
 h1{
     font-size: calc(1.5vw + 1.5vh);
-    padding-left: 1vh;
     font-weight: 2000;
     font-family: 'Bruno Ace SC', cursive;
     text-decoration: solid;
@@ -28,7 +27,7 @@ h1{
 }
 h2{
     font-family: 'Agdasima', sans-serif;
-    font-weight: 1000;
+    font-weight: 600;
 }
 h3{
     font-size: calc(0.8vw + 0.8vh);
@@ -108,13 +107,17 @@ p.descreption{
     position: relative;
     margin-top: 4vw;
     margin-left: 4vh;
+    max-width: 40%;
+    /* min-width: 200px; */
 }
 form {
     display: flex;
     flex-wrap: wrap;
     position: relative;
-    width: calc(25vw + 5vh);
-    min-width: 10vw;
+    width: 100%;
+    min-width: 100px;
+    /* width: calc(25vw + 5vh); */
+    /* min-width: 10vw; */
     background: var(--color-brand);
     border-radius: var(--rad);
   }
@@ -182,32 +185,34 @@ img{
     height: 150px;
 }
 .intro{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    overflow-x: hidden;
+    overflow-y: auto;
     height: 200px;
-    width:inherit;
-    box-sizing: border-box;
-    position: absolute;
-    color:black;
-    padding: 15px;
+    max-width: 100%;
+    color: black;
+    padding: 8px;
+    justify-content: center;
 }
 p.image_descreption{
     font-family: 'Agdasima', sans-serif;
     font-weight: 500;
+    margin-top: 0;
 }
 /* .cards:hover{
     box-shadow: 5px 5px 20px black;
 } */
 .cards {
-    background-color:#FFF4F4;
-    margin: 5vw;
+    background-color: #FFF4F4;
+    margin: 4vw;
     height: 360px;
-    width:230px;
+    width: 260px;
     overflow: hidden;
     border-radius: 8px;
-    padding:10px 0px 5px 0px;
+    padding: 10px 0px 5px 0px;
     text-align: center;
-
-    -webkit-box-shadow: 0px 20px 20px -17px rgba(0, 111, 255, 0.53);
-    -moz-box-shadow: 0px 20px 20px -17px rgba(0, 111, 255, 0.53);
     box-shadow: 0px 20px 20px -17px rgba(0, 111, 255, 0.53);
     .container {
       font-size: 4em;
@@ -228,4 +233,19 @@ p.image_descreption{
         transform: translateY(20px);
         transition: 0.5s;
     }
+}
+h1.about_title{
+    font-size: calc(1.4vw + 1.4vh);
+    font-family: 'Agdasima', sans-serif;
+    font-weight: 500;
+    font-weight: bold;
+    padding-left: 0;
+}
+.about_us_middle{
+    padding-left: 2vw;
+}
+p.get_started{
+    font-size: calc(1.3vw + 1.3vh);
+    font-family: 'Agdasima', sans-serif;
+    font-weight: 500;
 }
